@@ -1,7 +1,7 @@
 kind: Service                             
 apiVersion: v1
 metadata:
-  name: sample-project2
+  name: project2
   labels:
     app: project2
 spec:
@@ -10,4 +10,4 @@ spec:
       targetPort: 80                    
   selector:
     app: project2                    
-  type: LoadBalancer                   
+  type: NodePort                   

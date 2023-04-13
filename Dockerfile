@@ -1,6 +1,6 @@
 FROM centos:latest
 MAINTAINER itsprashanth327@gmail.com
-RUN yum update -y
+#RUN yum update -y
 RUN yum install httpd -y
 #RUN service httpd start
 RUN yum install zip -y
